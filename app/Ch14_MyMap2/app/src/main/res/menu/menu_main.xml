@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fongchishong.ch14_mymap2.MainActivity">
+
+    <item android:id="@+id/mark" android:title="標記"
+        app:showAsAction="ifRoom" android:icon="@drawable/ic_action_mark" />
+    <item android:id="@+id/satellite" android:title="顯示衛星圖"
+        android:checkable="true" />
+    <item android:id="@+id/traffic" android:title="顯示交通狀況"
+        android:checkable="true" />
+    <item android:id="@+id/currLocation" android:title="移到目前位置" />
+    <item android:id="@+id/setGPS" android:title="設定定位服務" />
+</menu>
